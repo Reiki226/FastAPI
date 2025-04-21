@@ -1,6 +1,4 @@
-git add main.py          # Stage the file
-git commit -m "Add main.py"    # Commit the staged file
-git push origin main     # Push to GitHub
+
 from fastapi import FastAPI, HTTPException, Depends
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from jose import jwt, JWTError
